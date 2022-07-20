@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="./styles/app.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body onload="data('weekly')">
+  <main class="dashboard">
+    <section class="dashboard__perfil">
+      <div class="dashboard__perfil__info">
+        <img src="./images/image-jeremy.png" alt="">
+        <div class="dashboard__perfil__info__name">
+          <span>Report for</span>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="dashboard__perfil__date">
+        <p id="daily">Daily</p>
+        <p id="weekly">Weekly</p>
+        <p id="monthly">Monthly</p>
+      </div>
+    </section>
+    <section class="dashboard__work | minicard" brg="../images/icon-work.svg">
+      <div class="minicard__info">
+        <div class="minicard__info__title">
+          <h2 class="titleCard"></h2>
+          <i class="fas fa-ellipsis-h" id="menuButton"></i>
+          <div class="menu menu2">
+            <span>Edit</span>
+          </div>
+        </div>
+        <div class="minicard__info__hrs">
+          <h2 class="hrs"></h2>
+          <span class="spanhrs"></span>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard__play | minicard">
+      <div class="minicard__info">
+        <div class="minicard__info__title">
+          <h2 class="titleCard"></h2>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="minicard__info__hrs">
+          <h2 class="hrs"></h2>
+          <span class="spanhrs"></span>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard__study | minicard">
+      <div class="minicard__info">
+        <div class="minicard__info__title">
+          <h2 class="titleCard"></h2>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="minicard__info__hrs">
+          <h2 class="hrs"></h2>
+          <span class="spanhrs"></span>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard__exercise | minicard">
+      <div class="minicard__info">
+        <div class="minicard__info__title">
+          <h2 class="titleCard"></h2>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="minicard__info__hrs">
+          <h2 class="hrs"></h2>
+          <span class="spanhrs"></span>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard__social | minicard">
+      <div class="minicard__info">
+        <div class="minicard__info__title">
+          <h2 class="titleCard"></h2>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="minicard__info__hrs">
+          <h2 class="hrs"></h2>
+          <span class="spanhrs"></span>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard__selfcare | minicard">
+      <div class="minicard__info">
+        <div class="minicard__info__title">
+          <h2 class="titleCard"></h2>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="minicard__info__hrs">
+          <h2 class="hrs"></h2>
+          <span class="spanhrs"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://kit.fontawesome.com/96e4c031a1.js" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
